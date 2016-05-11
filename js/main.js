@@ -1,0 +1,1 @@
+new Clipboard('.color');$('.color').click(function(){var color = $(this).css('background-color');$this = $(this);$('<div class="boom" style="background-color:' + color + '" ></div>').appendTo($this.parent()).delay(2000).queue(function() { $(this).remove(); });});
